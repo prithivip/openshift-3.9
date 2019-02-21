@@ -46,21 +46,16 @@ oreg_auth_password='welcome1'
 ###########################################################################
 
 [OSEv3:children]
-lb
 masters
 etcd
 nodes
 nfs
-
-[lb]
-lb.openshift.lab.com
 
 [masters]
 master.openshift.lab.com
 
 [etcd]
 etcd.openshift.lab.com
-
 
 [nodes]
 ## This is only for masters
